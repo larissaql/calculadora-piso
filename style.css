@@ -1,15 +1,15 @@
 @font-face {
     font-family: "title";
-    src: url(../fonts/Montserrat-Italic.ttf);
+    src: url(./fonts/BebasNeue-Regular.ttf);
 }
 @font-face {
     font-family: "regular";
-    src: url(../fonts/Montserrat-Regular.ttf);
+    src: url(./fonts/Montserrat-Italic.ttf);
 }
 
 body {
     margin: 0;
-    background-color: #e3c7b1;
+    background-image: url("./img/background.jpg");
   }
   
   #container {
@@ -22,6 +22,7 @@ body {
   h1 {
     text-align: center;
     font-family: "title";
+    color: #473424;
   }
   
   #Calculadora {
@@ -30,10 +31,10 @@ body {
   }
   
   #Calculadora button {
-    color: #e3c7b1;
+    color: #ccc;
     margin: 10px;
-    font-family: "title";
-    background-color: black;
+    font-family: "regular";
+    background-color: #473424;
     border: none;
     border-radius: 5px;
     padding: 5px 10px;
@@ -76,7 +77,9 @@ body {
     text-align: center;
     display: block;
     margin-top: 30px;
-    font-family: "title";
+    font-family: "regular";
+    color: #473424;
+    font-size: 150%;
   }
   
   @media screen and (max-width: 600px) {

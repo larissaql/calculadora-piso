@@ -10,7 +10,7 @@ const floorCalculation = (event) => {
     const area = Width * Length
     const purchaseValue = area * floorValue
     
-    $('#result').innerText = `Quantidade de pisos para comprar = ${area.toFixed(0)}\n Valor da compra = R$ ${purchaseValue} reais`
+    $('#result').innerText = `Quantidade de pisos (área) = ${area.toFixed(0)} m²\n Valor da compra = R$ ${purchaseValue} reais`
 }
 
 const toFloat = (id) => {
